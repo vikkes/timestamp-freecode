@@ -2,6 +2,12 @@ var express = require('express');
 var moment =require("moment");
 var app = express();
 
+app.get('/', function (req, res) {
+  res.json({
+      app:"Timestamp"
+    });
+});
+
 app.get('/:str', function (req, res) {
    var myDate;
   if(/^\d{8,}$/.test(req.params.str)) {
