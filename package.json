@@ -1,0 +1,22 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "timestamp freecode",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikkes/timestamp-freecode.git"
+  },
+  "author": "vikkes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikkes/timestamp-freecode/issues"
+  },
+  "homepage": "https://github.com/vikkes/timestamp-freecode#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
